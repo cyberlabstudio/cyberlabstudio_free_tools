@@ -1,0 +1,65 @@
+{
+	"theme": "light",
+	"default_color_theme": "blue",
+	"language": "fr",
+	"ui_mode": "compact",
+	"paths": {
+		"notes": "C:/SentinelSuite/notes",
+		"scan_history": "C:/SentinelSuite/scans",
+		"labs": "C:/SentinelSuite/labs"
+	},
+	"modules": {
+		"scan_manager": true,
+		"notes_manager": true,
+		"history_viewer": true,
+		"preferences": true
+	},
+	"scan_profiles": {
+		"basic": {
+			"label": "Quick analysis",
+			"description": "Vérifie les fichiers en surface, très rapide",
+			"icon": "🚀",
+			"options": ["-sS", "-T4", "-Pn", "--open", "-vv"]
+		},
+		"full": {
+			"label": "Deep analysis",
+			"description": "Analyse approfondie avec tous les modules actifs",
+			"icon": "🔍",
+			"options": ["-sS", "-sV", "-O", "-A", "-T4", "-Pn", "-p-"]
+		},
+		"stealth": {
+			"label": "Silent scan",
+			"description": "Mode silencieux, sans alertes ni logs visibles",
+			"icon": "🔒",
+			"options": ["-sS", "-T2", "-Pn", "--max-retries", "2", "--host-timeout", "60m"]
+		},
+		"udp": {
+			"label": "Network analysis (UDP)",
+			"description": "Analyse ciblée des paquets réseau en UDP",
+			"icon": "🌐",
+			"options": ["-sU", "-T4", "-Pn", "--top-ports", "50", "--open", "-vv"]
+		}
+	},
+	"sidebar": {
+		"scan_manager": {
+			"label": "Scan Manager",
+			"icon": "\ud83d\udd0d",
+			"color": "#1f6aa5"
+		},
+		"notes_manager": {
+			"label": "Notes",
+			"icon": "\ud83d\udcdd",
+			"color": "#1f6aa5"
+		},
+		"history_viewer": {
+			"label": "Logs",
+			"icon": "\ud83d\udcdc",
+			"color": "#1f6aa5"
+		},
+		"preferences": {
+			"label": "Preferences",
+			"icon": "\u2699\ufe0f",
+			"color": "#1f6aa5"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+# Ignorer les dossiers générés automatiquement par Python
+__pycache__/
+.vscode/
+
+# Ignorer les fichiers
+.pyc__pycache--/

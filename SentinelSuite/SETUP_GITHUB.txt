@@ -1,0 +1,48 @@
+# 🚀 Pack de configuration GitHub pour SentinelSuite
+
+Ce pack contient les fichiers essentiels pour automatiser et sécuriser le projet SentinelSuite
+dès sa création sur GitHub.
+
+---
+
+## ✅ Fichiers inclus
+
+1. .github/dependabot.yml
+   - Surveille et met à jour automatiquement les dépendances Python et GitHub Actions.
+   - Vérification hebdomadaire.
+   - Ouvre des Pull Requests pour corriger les dépendances vulnérables ou obsolètes.
+
+2. .github/release-drafter.yml
+   - Génère automatiquement des notes de version à chaque merge dans la branche main.
+   - Classe les PR par catégories (Features, Bug Fixes, Maintenance).
+   - Simplifie la gestion des releases.
+
+3. .github/workflows/ci.yml
+   - Workflow CI pour Python.
+   - Installe Python 3.10, les dépendances, et lance les tests avec pytest.
+   - Vérifie la stabilité du projet à chaque push ou pull request.
+
+4. .github/workflows/codeql.yml
+   - Analyse statique de sécurité avec CodeQL.
+   - Détecte les failles de sécurité dans le code Python.
+   - S’exécute à chaque push/pull request et une fois par semaine automatiquement.
+
+---
+
+## 🎯 Utilisation recommandée
+
+- **Sécurité** : Dependabot + CodeQL
+- **Automatisation** : GitHub Actions + Release Drafter
+- **Qualité** : CI avec pytest
+- **Professionnalisation** : Notes de version automatiques + badges Shields.io dans le README
+
+---
+
+## 📜 Étapes d’installation
+
+1. Créer le dossier `.github/` à la racine du projet.
+2. Ajouter le sous-dossier `.github/workflows/`.
+3. Copier les fichiers fournis dans les bons emplacements.
+4. Commit + push sur GitHub.
+5. Vérifier dans l’onglet **Actions** que les workflows s’exécutent correctement.
+6. Vérifier dans l’onglet **Security** que Dependabot et CodeQL sont actifs.

@@ -1,0 +1,24 @@
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.rar
+
+# Logs
+*.log
+
+# Backup files
+*~
+
+# Vim/Neovim swap files
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Executables (au cas où)
+*.out
+*.exe
