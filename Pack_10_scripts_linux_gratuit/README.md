@@ -5,9 +5,9 @@
 # Pack 10 Scripts Linux Gratuits - CyberLab Studio
 
 ![CyberLab Studio](https://img.shields.io/badge/CyberLab_Studio-Linux_Tools-6f42c1)
-![Version](https://img.shields.io/github/v/release/CyberLabStudio/pack-10-scripts-linux)
-![Downloads](https://img.shields.io/github/downloads/CyberLabStudio/pack-10-scripts-linux/total)
-![License](https://img.shields.io/github/license/CyberLabStudio/pack-10-scripts-linux)
+![Version](https://img.shields.io/github/v/release/cyberlabstudio/cyberlabstudio_free_tools)
+![Downloads](https://img.shields.io/github/downloads/cyberlabstudio/cyberlabstudio_free_tools/v1.0.0/total)
+![License](https://img.shields.io/github/license/cyberlabstudio/cyberlabstudio_free_tools)
 ![Status](https://img.shields.io/badge/maintenance-none-critical)
 ![Shell](https://img.shields.io/badge/scripts-bash-blue)
 
@@ -17,7 +17,7 @@
 
 ## 📥 Téléchargement
 
-[Télécharger la dernière version (v1.0.0)](https://github.com/CyberLabStudio/pack-10-scripts-linux/releases/latest)
+[Télécharger la dernière version (v1.0.0)](https://github.com/cyberlabstudio/cyberlabstudio_free_tools/releases/download/v1.0.0/CyberLabStudio_Linux_Script_Pack_v1.0.0.zip)
 
 ## 📌 Contenu du Pack
 
