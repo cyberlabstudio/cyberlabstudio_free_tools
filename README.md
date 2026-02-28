@@ -39,7 +39,7 @@ Automatisez vos tâches quotidiennes avec 10 scripts Bash prêts à l’emploi.
 * 🏷️ Version : v1.0.0
 
 ### 2. SentinelSuite
-Un outil gratuit orienté sécurité informatique.
+Un outil gratuit orienté sécurité informatique pour les labs TryHackMe, HackThe Box.
 
 * 📁 Dossier :
 `cybersecurity-tool/`
@@ -78,6 +78,6 @@ CyberLab Studio
 
 * Email : CyberLabStudio@outlook.fr
 
-* Twitter : @CyberLabStudio
+* Twitter : [@CyberLabStudio](https://x.com/CyberLabStudio)
 
-* LinkedIn : Jérôme Monico
+* LinkedIn : [Jérôme Monico](https://www.linkedin.com/in/jerome-monico-b1ab0a37b/)
